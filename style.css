@@ -1,0 +1,281 @@
+ * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+ }
+ body {
+  background-color: #f5efe6;
+  overflow-x: hidden;
+ }
+ html {
+    scroll-behaviour: smooth;
+    /*scroll-padding-top: 90px;*/
+ }
+
+ .navigation-wrap {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  top: 0;
+  left: 0;
+  padding: 20px;
+ }
+ .navbar-brand{
+  font-size: 22px;
+  font-weight: 600;
+  color: #f5efe6;
+  letter-spacing: 1px;
+  font-family: century;
+ }
+ 
+.navigation-wrap .nav-item 
+{
+ padding: 0 0.625rem; 
+}
+.navigation-wrap .nav-link 
+{
+  color:#f5efe6;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+ .btn {
+  background: transparent;
+  color: white;
+  padding: 9px 22px;
+  border: 1px solid white;
+  border-radius:0 ;
+  font-size: 15px;
+  font-weight: 200;
+ }
+
+ .btn:hover{
+  color: #c7a17a;
+ }
+
+ 
+/*banner section*/
+
+.main1 
+{
+  background: url('images/b2.jpg') no-repeat center;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+.main1 .row{
+  margin-left: 0;
+  margin-right: 0;
+}
+.main1 h5{
+  color: white;
+  font-size: 3rem!important;
+  letter-spacing: 4px;
+  font-weight: 100;
+  transition: 0.3s;
+
+}
+.main1 h5:hover{
+  color: #c7a17a;
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+.main1 .tran-btn{
+  background: transparent;
+  color: white;
+  border:1px solid white;
+  padding: 10px;
+  letter-spacing: 2px;
+}
+
+.main1 .main-btn{
+  border: none;
+  background: transparent;
+  color: white;
+  padding: 10px;
+  letter-spacing: 2px;
+}
+.main1 .main-btn:hover{
+  transition: 1s;
+  color: #c7a17a;
+}
+
+
+
+/*About section*/
+.aboutt {
+  min-height: 90vh;
+  /*margin-top: 10%;*/
+  /*padding-top: 30px;*/
+}
+.aboutt h1{
+  font-size: 30px;
+}
+.aboutt p 
+{
+  line-height:2 ;
+  font-size: 20px;
+  margin: 10px;
+}
+
+ /*Menu Section*/
+ .menu 
+ {
+  min-height: 100dvh;
+  /*margin-top: 5%;*/
+ }
+ .menu img 
+ {
+  width: 400vw;
+  height: 300px;
+  border: 2px solid #c7a17a;
+  box-shadow:  4px 7px 7px 0px #00000042;
+  cursor: pointer;
+  /*margin: 10px;*/
+  transition: 400ms;
+  object-fit: cover;
+ }
+.menu img:hover{
+  transform: scale(1.03);
+}
+
+.section-offset{
+  scroll-margin-top: 100px;
+}
+/*contact section*/
+
+.contact{
+   text-align: center;
+   min-height: 100vh;
+   /*margin-top: 7%;*/
+
+}
+.cont1 
+{
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.cont1 h2 {
+  font-size: 2rem!important;
+  color: #4b2e2e;
+}
+.subtitle{
+  font-size: 1rem;
+  color: #c7a17a;
+  font-weight: bold;
+  font-family: century gothic;
+  margin-bottom: 2rem;
+}
+
+.contact-box{
+  margin-top: 1rem;
+  background: white;
+  height: 200px;
+  width: 28vw;
+  padding: 40px 0;
+  border-radius: 16px;
+  transition: 0.3s;
+}
+.contact-box:hover{
+  transform: translateY(-8px);
+}
+.contact-box h3 {
+  color: #4b2e2e;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.contact-box p{
+  color:#c7a17a;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+
+/*Footer section*/
+
+.footer
+{
+  background-color: #4b2e2e;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 100%;
+}
+.footer a{
+  color: white;
+  text-decoration: none;
+}
+.footer h3{
+  font-family: century;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+/*Media Queri for mobile screen*/
+
+
+/*Media Queri for mobile screen*/
+@media (max-width: 768px)
+{
+  .main1 h5{
+    font-size: 1.2rem;
+  }
+  .main1{
+    
+    text-align: center;
+  }
+  .footer{
+    width: 100%;
+  }
+  .aboutt{
+    margin-top: 20%;
+  }
+ 
+  .contact{
+    margin-top: 20%;
+  }
+  .contact-box{
+    width: 100%;
+    margin-top: 10%;
+  }
+  .contact p{
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 768px)
+{
+  .navbar-brand{
+    font-size: 1.6rem;
+  }
+  .main1 .tran-btn{
+    padding: 12px;
+   font-size: 1.3rem;
+   margin-top: 1rem;
+  }
+  .main1 .main-btn{
+    padding: 10px;
+    font-size: 1rem;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  .main1 h5{
+    font-size: 1.4em;
+  }
+  .aboutt {
+    margin-top: 10%;
+  }
+  .contact{
+    font-size: 2em;
+    margin-top: 10%;
+  }
+
+  }
+  .contact p{
+    font-size: 1.3rem;
+  }
+}
