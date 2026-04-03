@@ -16,7 +16,7 @@ This is a modern and responsive Cafe Website Template created using HTML, CSS, a
   - Bootstrap
 
 3. Preview
-   ![Cafe Website](images/cafe.jpeg)
+   images/cafe.jpeg
 
 4. Live Demo
   (https://banur8600-dotcom.github.io/cafe-website-template/)
