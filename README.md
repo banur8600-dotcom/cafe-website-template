@@ -2,34 +2,30 @@
 
 This is a modern and responsive Cafe Website Template created using HTML, CSS, and Bootstrap.
 
-✨ Features
-
+1. Features
+   
 - Fully responsive design
 - Clean and modern UI
 - Navigation bar
 - Menu section
 - Contact section
 
-🛠️ Technologies Used
+2. Technologies Used
+  - HTML5
+  - CSS3
+  - Bootstrap
 
-- HTML5
-- CSS3
-- Bootstrap
+3. Preview
+   ![Cafe Website](cafe.jpeg)
 
-📸 Preview
+4. Live Demo
+  (https://banur8600-dotcom.github.io/cafe-website-template/)
 
-(Add screenshot here)
+ 5. Folder Structure
+   - images/
+  - index.html
+  - style.css
+  
 
-🚀 Live Demo
-
-(Add GitHub Pages link here)
-
-📂 Folder Structure
-
-- index.html
-- css/
-- images/
-
-💡 Author
-
-Rehana Banu
+__ Author
+ Rehana Banu
